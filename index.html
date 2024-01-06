@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="main.css">
+<title>電卓</title>
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="display" id="display">0</div>
+
+        <div class="calculation">
+            <div class="line1">
+                <button class="seven" id="seven" onclick="clickButton(this)">7</button>
+                <button class="eight" id="eight" onclick="clickButton(this)">8</button>
+                <button class="nine" id="nine" onclick="clickButton(this)">9</button>
+                <button class="addition" id="addition" onclick="clickButton(this)">+</button>
+            </div>
+
+            <div class="line2">
+                <button class="four" id="four" onclick="clickButton(this)">4</button>
+                <button class="five" id="five" onclick="clickButton(this)">5</button>
+                <button class="six" id="six" onclick="clickButton(this)">6</button>
+                <button class="subtraction" id="subtraction" onclick="clickButton(this)">-</button>
+            </div>
+
+            <div class="line3">
+                <button class="one" id="one" onclick="clickButton(this)">1</button>
+                <button class="two" id="two" onclick="clickButton(this)">2</button>
+                <button class="three" id="three" onclick="clickButton(this)">3</button>
+                <button class="maltiplication" id="maltiplication" onclick="clickButton(this)">*</button>
+            </div>
+
+            <div class="line4">
+                <button class="zero" id="zero" onclick="clickButton(this)">0</button>
+                <button class="doubleZero" id="doubleZero" onclick="clickButton(this)">00</button>
+                <button class="point" id="point" onclick="clickButton(this)">.</button>
+                <button class="division" id="division" onclick="clickButton(this)">/</button>
+            </div>
+
+            <div class="line5">
+                <button class="allClear" id="allClear" onclick="clickButton(this)">AC</button>
+                <button class="execution" id="execution" onclick="clickButton(this)">=</button>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>

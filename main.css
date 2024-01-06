@@ -1,0 +1,36 @@
+.calculator {
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 400px;
+}
+
+.display {
+    height: 40px;
+    padding-right: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 5px;
+    background-color: black;
+    color: white;
+    text-align: right;
+    line-height: 40px;
+    font-size: 30px;
+}
+
+button {
+    height: 40px;
+    font-size: 30px;
+    margin: 2px;
+}
+
+.line1 , .line2 , .line3 , .line4 , .line5{
+    display: flex;
+}
+
+.seven , .eight , .nine , .addition , .four , .five , .six , .subtraction , .one , .two , .three , .maltiplication , .zero , .doubleZero , .point , .division{
+    width: calc(100%/4);
+}
+
+.allClear , .execution {
+    width: calc(100%/2);
+}
